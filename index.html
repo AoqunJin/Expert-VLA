@@ -100,7 +100,7 @@
               <div class="publication-links">
                 <!-- Arxiv PDF link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                  <a href="https://arxiv.org/pdf/2503.04163" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -133,7 +133,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2503.04163" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -172,7 +172,19 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              The emergence of vision-language-action (VLA) models has given rise to foundation models for robot manipulation. Although these models have achieved significant improvements, their generalization in multi-task manipulation remains limited. This study proposes a VLA model-expert collaboration framework that leverages a limited number of expert actions to enhance VLA model performance. This approach reduces expert workload relative to manual operation while simultaneously improving the reliability and generalization of VLA models. Furthermore, manipulation data collected during collaboration can further refine the VLA model, while human participants concurrently enhance their skills. This bi-directional learning loop boosts the overall performance of the collaboration system. Experimental results across various VLA models demonstrate the effectiveness of the proposed system in collaborative manipulation and learning, as evidenced by improved success rates across tasks. Additionally, validation using a brain-computer interface (BCI) indicates that the collaboration system enhances the efficiency of low-speed action systems by involving VLA model during manipulation. These promising results pave the way for advancing human-robot interaction in the era of foundation models for robotics.
+              The emergence of vision-language-action (VLA) models has given rise to foundation models for robot
+              manipulation. Although these models have achieved significant improvements, their generalization in
+              multi-task manipulation remains limited. This study proposes a VLA model-expert collaboration framework
+              that leverages a limited number of expert actions to enhance VLA model performance. This approach reduces
+              expert workload relative to manual operation while simultaneously improving the reliability and
+              generalization of VLA models. Furthermore, manipulation data collected during collaboration can further
+              refine the VLA model, while human participants concurrently enhance their skills. This bi-directional
+              learning loop boosts the overall performance of the collaboration system. Experimental results across
+              various VLA models demonstrate the effectiveness of the proposed system in collaborative manipulation and
+              learning, as evidenced by improved success rates across tasks. Additionally, validation using a
+              brain-computer interface (BCI) indicates that the collaboration system enhances the efficiency of
+              low-speed action systems by involving VLA model during manipulation. These promising results pave the way
+              for advancing human-robot interaction in the era of foundation models for robotics.
             </p>
           </div>
         </div>
@@ -186,7 +198,11 @@
       <div class="hero-body">
         <img src="static/images/image1.png" alt="MY ALT TEXT" />
         <h2 class="subtitle has-text-centered">
-          <div class="content has-text-justified">Figure 1. The proposed VLA model-expert collaboration system integrates a VLA model and expert interactions to enhance manipulation. The VLA model generates actions by processing task instructions as text tokens and environmental inputs as vision tokens. Meanwhile, the expert makes decisions at a lower frequency, assisting the VLA model. Expert-executed actions are collected to fine-tune the VLA model, improving system performance.</div>
+          <div class="content has-text-justified">Figure 1. The proposed VLA model-expert collaboration system
+            integrates a VLA model and expert interactions to enhance manipulation. The VLA model generates actions by
+            processing task instructions as text tokens and environmental inputs as vision tokens. Meanwhile, the expert
+            makes decisions at a lower frequency, assisting the VLA model. Expert-executed actions are collected to
+            fine-tune the VLA model, improving system performance.</div>
         </h2>
       </div>
     </div>
@@ -197,7 +213,8 @@
       <div class="hero-body">
         <img src="static/images/image2.png" alt="MY ALT TEXT" />
         <h2 class="subtitle has-text-centered">
-          <div class="content has-text-justified">Figure 2. Collaboration pipeline between VLA model and expert for manipulation and learning.</div>
+          <div class="content has-text-justified">Figure 2. Collaboration pipeline between VLA model and expert for
+            manipulation and learning.</div>
         </h2>
       </div>
     </div>
@@ -208,7 +225,8 @@
       <div class="hero-body">
         <img src="static/images/image5.png" alt="MY ALT TEXT" />
         <h2 class="subtitle has-text-centered">
-          <div class="content has-text-justified">Success rate of collaboration between VLA models and rule-based expert policy under different ratios (VLA/expert) in MT10 and MT50 benchmarks.</div>
+          <div class="content has-text-justified">Success rate of collaboration between VLA models and rule-based expert
+            policy under different ratios (VLA/expert) in MT10 and MT50 benchmarks.</div>
         </h2>
       </div>
     </div>
@@ -219,7 +237,10 @@
       <div class="hero-body">
         <img src="static/images/image4.png" alt="MY ALT TEXT" />
         <h2 class="subtitle has-text-centered">
-          <div class="content has-text-justified">Comparison of the baseline VLA model (Octo) and the VLA model after collaborative learning (tuning). The success rates of the fine-tuned VLA model—with and without the rule-based expert policy (V vs. V-R)—are presented at the task level (a) and at the average level (b) in the MT10 benchmark.</div>
+          <div class="content has-text-justified">Comparison of the baseline VLA model (Octo) and the VLA model after
+            collaborative learning (tuning). The success rates of the fine-tuned VLA model—with and without the
+            rule-based expert policy (V vs. V-R)—are presented at the task level (a) and at the average level (b) in the
+            MT10 benchmark.</div>
         </h2>
       </div>
     </div>
@@ -230,7 +251,11 @@
       <div class="hero-body">
         <img src="static/images/image8.png" alt="MY ALT TEXT" />
         <h2 class="subtitle has-text-centered">
-          <div class="content has-text-justified">Application of the collaboration framework in SSVEP-based BCI: A comparison between pure SSVEP-based control and the collaboration between the VLA model and the BCI user. Although in some cases the policy of the human participant performs better than the VLA model (steps: 77 vs. 32), the collaboration system significantly improves time efficiency for a given task (time: 15s vs. 96s).</div>
+          <div class="content has-text-justified">Application of the collaboration framework in SSVEP-based BCI: A
+            comparison between pure SSVEP-based control and the collaboration between the VLA model and the BCI user.
+            Although in some cases the policy of the human participant performs better than the VLA model (steps: 77 vs.
+            32), the collaboration system significantly improves time efficiency for a given task (time: 15s vs. 96s).
+          </div>
         </h2>
       </div>
     </div>
@@ -241,14 +266,14 @@
   <!-- <section class="hero is-small is-light">
     <div class="hero-body">
       <div class="container"> -->
-        <!-- Paper video. -->
-        <!-- <h2 class="title is-3">Video Presentation</h2>
+  <!-- Paper video. -->
+  <!-- <h2 class="title is-3">Video Presentation</h2>
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
 
             <div class="publication-video"> -->
-              <!-- Youtube embed code here -->
-              <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media"
+  <!-- Youtube embed code here -->
+  <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media"
                 allowfullscreen></iframe>
             </div>
           </div>
@@ -267,20 +292,20 @@
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item item-video1">
             <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
-              <!-- Your video file here -->
-              <!-- <source src="static/videos/carousel1.mp4" type="video/mp4">
+  <!-- Your video file here -->
+  <!-- <source src="static/videos/carousel1.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item item-video2">
             <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
-              <!-- Your video file here -->
-              <!-- <source src="static/videos/carousel2.mp4" type="video/mp4">
+  <!-- Your video file here -->
+  <!-- <source src="static/videos/carousel2.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item item-video3">
             <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
-              <!-- Your video file here -->
-              <!-- <source src="static/videos/carousel3.mp4" type="video/mp4">
+  <!-- Your video file here -->
+  <!-- <source src="static/videos/carousel3.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -288,11 +313,6 @@
     </div>
   </section> -->
   <!-- End video carousel -->
-
-
-
-
-
 
   <!-- Paper poster -->
   <!-- <section class="hero is-small is-light">
@@ -313,7 +333,15 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@misc{xiang2025vlamodelexpertcollaborationbidirectional,
+    title={VLA Model-Expert Collaboration for Bi-directional Manipulation Learning}, 
+    author={Tian-Yu Xiang and Ao-Qun Jin and Xiao-Hu Zhou and Mei-Jiang Gui and Xiao-Liang Xie and Shi-Qi Liu and Shuang-Yi Wang and Sheng-Bin Duang and Si-Cheng Wang and Zheng Lei and Zeng-Guang Hou},
+    year={2025},
+    eprint={2503.04163},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO},
+    url={https://arxiv.org/abs/2503.04163}, 
+}</code></pre>
     </div>
   </section>
   <!--End BibTex citation -->
